@@ -1,6 +1,6 @@
 {
   "name": "webserver-base",
-  "version": "1.0.0-beta3",
+  "version": "1.0.1",
   "description": "Base webserver",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "compression": "^1.6.0",
     "cookie-parser": "^1.4.0",
     "express": "^4.13.3",
-    "express-wrangler": "^0.1.1",
+    "express-wrangler": "^0.2.1",
     "lodash": "^3.10.1",
     "logwrangler": "^0.1.5",
     "serve-static": "^1.10.0"
