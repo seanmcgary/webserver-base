@@ -10,9 +10,9 @@ describe('defaultServer', function(){
 		var server = Webserver();
 
 		assert.equal(server.config.port, 9000);
-		assert.deepEqual(server.config.bodyParser, {
-			json: true
-		});
+		assert.deepEqual(server.config.bodyParser, [{
+			name: 'json'
+		}]);
 		assert.equal(server.config.lazyInit, false);
 		done();
 	});
@@ -29,12 +29,13 @@ describe('defaultServer', function(){
 			lazyInit: true,
 			port: 8000,
 			staticFiles: false,
-			bodyParser: {
-				urlencoded: true
-			}
+			bodyParser: [{
+				name: 'urlencoded'
+			}]
 		};
 
 		var server = Webserver(config);
+
 
 		assert.deepEqual(server.config, config);
 		done();
