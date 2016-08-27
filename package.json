@@ -1,6 +1,6 @@
 {
   "name": "webserver-base",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Base webserver",
   "main": "index.js",
   "scripts": {
@@ -9,18 +9,18 @@
   "author": "Sean McGary <sean@seanmcgary.com>",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.4.0",
-    "body-parser": "^1.14.1",
-    "compression": "^1.6.0",
-    "cookie-parser": "^1.4.0",
-    "express": "^4.13.3",
+    "bluebird": "^3.4.3",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
     "express-wrangler": "^1.0.0",
-    "lodash": "^4.13.1",
+    "lodash": "^4.15.0",
     "logwrangler": "^2.0.0",
-    "serve-static": "^1.10.0"
+    "serve-static": "^1.11.1"
   },
   "devDependencies": {
-    "mocha": "^2.3.3",
-    "request": "^2.65.0"
+    "mocha": "^3.0.2",
+    "request": "^2.74.0"
   }
 }
